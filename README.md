@@ -1,4 +1,4 @@
-# 🛒 Quick Commerce Operational Analysis (Astro Case)
+# Quick Commerce Operational Analysis (Astro Case)
 
 This project presents an end-to-end data analysis of a Quick Commerce business model, focusing on operational inefficiencies within dark store fulfillment.
 
@@ -6,7 +6,7 @@ The objective of this analysis is to identify key bottlenecks affecting delivery
 
 ---
 
-## 📌 Business Context
+## Business Context
 
 Quick commerce platforms promise ultra-fast delivery (≤15 minutes), relying on dark stores as micro-fulfillment centers.
 
@@ -14,7 +14,7 @@ However, maintaining both speed and product quality — especially for perishabl
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 This analysis aims to:
 
@@ -26,7 +26,7 @@ This analysis aims to:
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset consists of three main tables:
 
@@ -38,7 +38,7 @@ Total records: ~300,000 orders
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 ### 1. Picking Bottleneck (Root Cause)
 
@@ -46,7 +46,7 @@ Total records: ~300,000 orders
 - ~74.5% of orders exceed picking SLA
 - No significant correlation between number of pickers and picking time
 
-👉 Indicates a **systemic inefficiency**, not a manpower issue
+Indicates a **systemic inefficiency**, not a manpower issue
 
 ---
 
@@ -55,7 +55,7 @@ Total records: ~300,000 orders
 - Fast-moving items (high-demand products) still have high picking times
 - Includes FMCG, fresh produce, and ice cream
 
-👉 Suggests that **warehouse layout is not demand-driven**
+Suggests that **warehouse layout is not demand-driven**
 
 ---
 
@@ -64,7 +64,7 @@ Total records: ~300,000 orders
 - No significant difference in delivery time between spoiled and non-spoiled orders
 - Spoilage affects both perishable and non-perishable products
 
-👉 Indicates that product damage likely occurs **during picking or storage**, not delivery
+Indicates that product damage likely occurs **during picking or storage**, not delivery
 
 ---
 
@@ -73,7 +73,7 @@ Total records: ~300,000 orders
 - No significant difference between day and night performance
 - SLA violations occur consistently across time
 
-👉 Confirms issue is **internal (operational), not external (time/weather)**
+Confirms issue is **internal (operational), not external (time/weather)**
 
 ---
 
@@ -83,11 +83,11 @@ Total records: ~300,000 orders
 - ~3% logical errors (invalid timestamp sequence)
 - ~0.67% extreme outliers (negative or unrealistic durations)
 
-👉 Indicates weak **data governance and system validation**
+Indicates weak **data governance and system validation**
 
 ---
 
-## 💥 Root Cause Summary
+## Root Cause Summary
 
 - Inefficient warehouse layout
 - Slow picking process
@@ -97,7 +97,7 @@ Total records: ~300,000 orders
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 - Increased SLA violations (delivery delays)
 - Higher product waste and refund rates
@@ -107,7 +107,7 @@ Total records: ~300,000 orders
 
 ---
 
-## 🚀 Recommendations
+## Recommendations
 
 ### 1. Dark Store Optimization
 - Implement demand-driven layout
@@ -130,7 +130,7 @@ Total records: ~300,000 orders
   
 ---
 
-## 🛠️ Tools & Skills
+## Tools & Skills
 
 - Python (Pandas, NumPy)
 - Data Cleaning & Preprocessing
@@ -140,6 +140,6 @@ Total records: ~300,000 orders
 
 ---
 
-## 👤 Author
+## Author
 
 **Jodi Hermawan**
