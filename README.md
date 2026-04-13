@@ -4,6 +4,8 @@ This project presents an end-to-end data analysis of a Quick Commerce business m
 
 The objective of this analysis is to identify key bottlenecks affecting delivery performance, product quality, and overall operational efficiency, and to provide actionable business recommendations.
 
+This project was completed as part of my Business Data Analyst course at Purwadhika.
+
 ---
 
 ## Business Context
